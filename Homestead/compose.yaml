@@ -1,6 +1,6 @@
 services:
   mc:
-    image: itzg/minecraft-server:java17-graalvm
+    image: itzg/minecraft-server:latest
     tty: true
     stdin_open: true
     ports:
