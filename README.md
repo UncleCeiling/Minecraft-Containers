@@ -1,11 +1,8 @@
 # Minecraft Containers
 
-## Resources
+> This repo is intended to allow me to easily track my `compose.yaml` files for hosting Minecraft servers.
 
-[itzg minecraft docker image](https://docker-minecraft-server.readthedocs.io/)
-[compose.yaml generator](https://setupmc.com/java-server/)
-
-## Steps
+## General Steps
 
 1. Install Docker and Docker Compose.
 
@@ -21,8 +18,15 @@
 5. Return to the folder with the `compose.yaml` and run the following command:
 
 ```sh
-docker compose
+docker compose up
 ```
+
+## Using a `compose.yaml` in this repo
+
+1. Clone this repo to the computer you are hosting on.
+2. `cd` to the folder of the server you want to run.
+3. **[optional]** `mkdir data` and copy any world files you want to carry over. You may need to edit the `level` parameter of the corresponding `compose.yaml`.
+4. Run `docker compose up`.
 
 ## Docker Cheat Sheet
 
@@ -32,6 +36,11 @@ docker compose
 |                         `docker ps` | List currently running containers.                                   |
 | `docker exec -it <CONTAINER ID> sh` | Start an interactive shell with a given container.                   |
 |        `docker stop <CONTAINER ID>` | Stop the shell.                                                      |
+
+## Resources
+
+[itzg minecraft docker image](https://docker-minecraft-server.readthedocs.io/)
+[compose.yaml generator](https://setupmc.com/java-server/)
 
 ## Modpacks
 
