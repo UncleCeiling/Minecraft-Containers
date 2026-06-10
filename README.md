@@ -40,6 +40,7 @@ docker compose up
 ## Resources
 
 [itzg minecraft docker image](https://docker-minecraft-server.readthedocs.io/)
+
 [compose.yaml generator](https://setupmc.com/java-server/)
 
 ## Modpacks
