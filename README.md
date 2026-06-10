@@ -28,6 +28,7 @@ docker compose up
 3. **[optional]** `mkdir data` and copy any world files you want to carry over. You may need to edit the `level` parameter of the corresponding `compose.yaml`.
 4. Run `docker compose up`.
 5. If you get an `API` error; create a `.env` file and add the appropriate key, making sure the environment variable is correct (correctly escaped/labelled) and try again.
+6. In the case of API rate limits, disable the restart policy until rate limits lift.
 
 ## Docker Cheat Sheet
 
