@@ -1,0 +1,25 @@
+services:
+  mc:
+    image: itzg/minecraft-server:latest
+    tty: true
+    stdin_open: true
+    ports:
+      - "25565:25565"
+    environment:
+      EULA: "TRUE"
+      TYPE: "FTBA"
+      FTB_MODPACK_ID: "130"
+      MEMORY: "7168M"
+      MOTD: "Online and ready to rock."
+      ENABLE_COMMAND_BLOCK: "true"
+      SIMULATION_DISTANCE: "8"
+      VIEW_DISTANCE: "8"
+      SEED: "butts"
+      LEVEL: "sb4_catbug"
+      OPS: |-
+        UncleCeiling
+        proXfizzy
+      ALLOW_FLIGHT: "true"
+    volumes:
+      - "./data:/data"
+    restart: always
