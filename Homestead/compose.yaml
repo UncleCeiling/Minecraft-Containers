@@ -9,6 +9,7 @@ services:
       EULA: "TRUE"
       TYPE: "AUTO_CURSEFORGE"
       CF_PAGE_URL: "https://www.curseforge.com/minecraft/modpacks/homestead-cozy"
+      CF_API_KEY: ${CF_API_KEY}
       MEMORY: "8192M"
       MOTD: "Homestead - Time to get cosy."
       ENABLE_COMMAND_BLOCK: "true"
