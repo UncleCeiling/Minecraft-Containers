@@ -10,7 +10,7 @@ services:
       TYPE: "MODRINTH"
       MODRINTH_MODPACK: "https://modrinth.com/modpack/homestead"
       MODRINTH_DEFAULT_VERSION_TYPE: "release"
-      MEMORY: "7168M"
+      MEMORY: "8192M"
       MOTD: "Homestead - Time to get cosy."
       ENABLE_COMMAND_BLOCK: "true"
       SIMULATION_DISTANCE: "8"
