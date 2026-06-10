@@ -7,8 +7,8 @@ services:
       - "25565:25565"
     environment:
       EULA: "TRUE"
-      TYPE: "AUTO_CURSEFORGE"
-      CF_PAGE_URL: "https://www.curseforge.com/minecraft/modpacks/homestead-cozy"
+      TYPE: "MODRINTH"
+      VERSION: "https://modrinth.com/modpack/homestead"
       MEMORY: "7168M"
       MOTD: "Time to get cosy."
       USE_MEOWICE_FLAGS: "true"
