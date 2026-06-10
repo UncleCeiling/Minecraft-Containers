@@ -8,7 +8,7 @@ services:
     environment:
       EULA: "TRUE"
       TYPE: "MODRINTH"
-      VERSION: "https://modrinth.com/modpack/homestead"
+      MODRINTH_MODPACK: "https://modrinth.com/modpack/homestead"
       MODRINTH_DEFAULT_VERSION_TYPE: "release"
       MEMORY: "7168M"
       MOTD: "Time to get cosy."
