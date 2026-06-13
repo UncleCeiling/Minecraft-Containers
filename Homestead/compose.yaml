@@ -24,4 +24,4 @@ services:
       ALLOW_FLIGHT: "true"
     volumes:
       - "./data:/data"
-    restart: always
+    restart: unless-stopped
