@@ -22,6 +22,7 @@ services:
         UncleCeiling
         proXfizzy
       ALLOW_FLIGHT: "true"
+      MAX_WORLD_SIZE: "5000"
     volumes:
       - "./data:/data"
     restart: unless-stopped
