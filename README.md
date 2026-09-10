@@ -47,6 +47,8 @@ docker compose up
 
 ## Modpacks
 
-[Homestead](https://www.curseforge.com/minecraft/modpacks/homestead-cozy)
+[Homestead](https://www.curseforge.com/minecraft/modpacks/homestead-cozy) (requires API key)
 
 [StoneBlock4](https://www.curseforge.com/minecraft/modpacks/ftb-stoneblock-4)
+
+[Seaopolis Submerged 2](https://www.curseforge.com/minecraft/modpacks/submerged-2) (requires API key)
